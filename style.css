@@ -1,0 +1,114 @@
+body {
+	background-color:#f0f4f8;
+	font-family:Arial,  sans-serif;
+	margin:40px;
+}
+h1 {
+	color:darkblue;
+	text-align:center;
+	border-bottom: 2px solid darkblue;
+	padding-bottom:10px;
+}
+p {
+	color:purple;
+	font-size:18px;
+}
+.container {
+	background-color: white;
+	padding:25px;
+	border-radius: 10px;
+	max-width:700px;
+	margin:30px auto;
+	
+}
+h2{
+	color:darkblue;
+	margin-top:25px;
+}
+nav {
+	background-color:darkblue;
+	text-align: center;
+	padding:15px;
+	margin-bottom:25px;
+	border-radius: 8px;
+}
+nav a{
+	color:white;
+	text-decoration: none;
+	margin: 0 15px;
+	font-weight:bold;
+}
+
+nav a:hover {
+	color:yellow;
+}
+img {
+	width: 150px;
+	height:150px;
+	border-radius: 50%;
+	object-fit: cover;
+	display: block;
+	margin: 20px auto;
+}
+img:hover {
+	transform:scale(1. 05);
+	transition:transform 0 .3s ease;
+}
+#skills {
+	background-color: #ffffff;
+	padding:20px;
+	margin:20px auto;
+	border-raduis:10px;
+}
+#skills h2{
+	color:#333333;
+	text-align:center;
+}
+#skills ul {
+	line-height: 2;
+}
+@media (max-width:600px){
+	.container {
+		width: 95%;
+		padding:15px
+	}
+	nav a {
+		display:block;
+		margin:5px 0;
+	}
+	h1 {
+		font-size: 26px;
+	}
+}
+footer {
+	background-color:#333333;
+	color:#ffffff;
+	text-align: center;
+	padding:15px;
+	margin-top:30px;
+}
+.contact-button {
+	display:inline-block;
+	background-color:#333333;
+	color:white;
+	padding:10px 20px;
+	text-decoration: none;
+	border-radius:5px;
+}
+.contact-button:hover {
+	background-color:#555555;
+}
+html {
+	scroll-behavior: smooth;
+}
+#Education {
+	background-color:#ffffff;
+	padding:20px;
+	margin:20px auto;
+	border-radius: 10px;
+}
+#Education h2{
+	text-align:center;
+	color:#333333;
+	
+}
